@@ -1,0 +1,127 @@
+.home{
+    
+    .features{
+        
+        background-color: #f1fdf7;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px;
+
+        &.dark{
+            background-color: #001d3d;
+            h1{
+                color: white !important;
+            }
+            p{
+                color: white !important;
+                margin-bottom: 20px !important;
+
+            }
+
+            .title{
+                color: white !important;
+                font-weight: 300 !important;
+                font-size: 14px !important;
+            }
+
+            img{
+                width: 100%;
+            }
+
+            button{
+                background-color: #fb8500;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 20px;
+                border: none;
+                width: max-content;
+            }
+
+
+           
+        }
+
+        .container{
+            width: 75%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+            .item{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                &:first-child{
+                    width: 40%;
+                }
+                
+                &:last-child{
+                    width: 50%;
+                   
+                }
+
+                h1{
+                    font-weight: 500;
+                    margin-bottom: 10px;
+
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: gray;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+                }
+    
+                .title{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: gray;
+
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+    
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+                .img1{
+                    width: 120%;
+                    border-radius: 5%;
+                    object-fit:cover;
+                }
+
+                .img2{
+                    width: 120%;
+                    border-radius: 5%;
+                    object-fit:cover;
+                }
+                
+                .brandname{
+                    font-family: "Philosopher", sans-serif;
+                }
+
+                .backqoute{
+                    font-family: "Philosopher", sans-serif;
+                    color: #fb8500;
+                }
+
+                
+            }
+    
+
+        }
+        
+    }
+}
