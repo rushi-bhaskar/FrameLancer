@@ -26,7 +26,7 @@ const connect = async()=>{
 
 };
 
-app.use(cors({origin:"https://framelancer.vercel.app", credentials: true}));
+app.use(cors({origin:"https://frame-lancer2-wgiz.vercel.app/", credentials: true}));
 app.use(express.json());
 app.use(cookieParser());
 
