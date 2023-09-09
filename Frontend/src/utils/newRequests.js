@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-    baseURL:"http://localhost:8800/api/",
+    baseURL:"https://frame-lancer2-wgiz.vercel.app/api/",
     withCredentials:true,
 });
 
